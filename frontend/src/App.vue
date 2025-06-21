@@ -1,5 +1,6 @@
 <script setup>
 import ApiTest from './components/ApiTest.vue'
+import UserList from './components/UserList.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import ApiTest from './components/ApiTest.vue'
     </header>
     <main>
       <ApiTest />
+      <UserList />
     </main>
   </div>
 </template>
